@@ -1,5 +1,7 @@
 # oazure
 
+## next
+
 ## 1.2.0
 * m: api is now available at package's top level
 
