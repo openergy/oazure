@@ -10,7 +10,7 @@ from aiohttp.client_exceptions import ClientError
 from .snippets.ojson import dumps
 
 
-class ResponseError(Exception):
+class BatchResponseError(Exception):
     def __init__(self, code, message, values):
         self.code = code
         self.message = message
@@ -63,7 +63,7 @@ class AzureBatchClient:
             return response
         else:
             content = await response.json()
-            raise ResponseError(content["code"], content["message"], content["values"] if "values" in content else [])
+            raise BatchResponseError(content["code"], content["message"], content["values"] if "values" in content else [])
 
     def _authenticate(self, verb, path, params, headers):
         headers["Date"] = dt.datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S GMT')

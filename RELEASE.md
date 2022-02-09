@@ -1,6 +1,7 @@
 # oazure
 
-## next
+## 1.3.0
+* m: AzureBatchClient is now publicly available
 
 ## 1.2.0
 * m: api is now available at package's top level
