@@ -1,6 +1,7 @@
 # oazure
 
-## next
+## 1.4.0
+* m: LogAnalyticsClient is now publicly available
 
 ## 1.3.0
 * m: AzureBatchClient is now publicly available
