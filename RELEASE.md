@@ -1,5 +1,8 @@
 # oazure
 
+## 1.4.1
+* p: devops debug
+
 ## 1.4.0
 * m: LogAnalyticsClient is now publicly available
 
