@@ -1,3 +1,4 @@
+from .version import version as __version__
 from .async_blob_storage import AsyncBlobAPI, \
     AzureBlobStorageResourceNotFound, \
     AzureBlobStorageAlreadyLeased,\
