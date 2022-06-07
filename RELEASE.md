@@ -1,6 +1,7 @@
 # oazure
 
-## next
+## 1.4.2
+* p: azure-storage-blob requirements were loosened
 
 ## 1.4.1
 * p: devops debug
