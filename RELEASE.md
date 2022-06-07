@@ -1,5 +1,7 @@
 # oazure
 
+## next
+
 ## 1.4.2
 * p: azure-storage-blob requirements were loosened
 
